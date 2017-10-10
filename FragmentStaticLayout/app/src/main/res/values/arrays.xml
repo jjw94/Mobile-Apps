@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="Pics">
+        <item>@drawable/calcifer</item>
+        <item>@drawable/eureka</item>
+        <item>@drawable/knight</item>
+        <item>@drawable/ansatsu</item>
+        <item>@drawable/onepiece</item>
+        <item>@drawable/titan</item>
+    </integer-array>
+</resources>

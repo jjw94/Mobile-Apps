@@ -1,0 +1,7 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Practice Practical</string>
+
+    <string name="summary_price">Approximate Cost: <xliff:g id="price" example="$10">%s</xliff:g></string>
+
+    <string name="summary_header">Your Tee Time Info is:</string>
+</resources>

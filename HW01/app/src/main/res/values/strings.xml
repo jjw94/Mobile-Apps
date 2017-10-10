@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HW01 - Layouts</string>
+    <string name="labelDate">Date</string>
+    <string name="labelTime">Time</string>
+    <string name="labelTemp">Temp</string>
+    <string name="name">Jeremiah Wong</string>
+    <string name="icon_image">Icon Image</string>
+    <string name="Day">Have a Great Day!!</string>
+    <string name="Copyright">Copyright &#169; 2017</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Triviart</string>
+    <string name="header">Please Select an Article Topic Below!</string>
+    <string name="articles">Articles</string>
+    <string name="questions">Questions</string>
+    <string name="read_the_following">Read the Following:</string>
+    <string name="quiz_header">Answer the Following Questions!</string>
+    <string name="chemistryQ">What type of chemical bond involves the sharing of electrons between two atoms?</string>
+    <string name="cryptQ">True or False: RSA is a type of symmetric algorithm.</string>
+    <string name="dataQ">True or False: Implementation provides the internal representation of a data structure.</string>
+    <string name="itQ">What type of loop can be thought of as a repeating if statement?</string>
+    <string name="physicsQ">True or False: atomic number less than 82 is radioactive.</string>
+    <string name="submit">Submit</string>
+</resources>

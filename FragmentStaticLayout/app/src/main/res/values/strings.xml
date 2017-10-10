@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fun Quotes</string>
+    <string-array name="Titles">
+        <item>Howl no Ugoku Shiro</item>
+        <item>Eureka Seven</item>
+        <item>Rakudai Kishi no Cavalry</item>
+        <item>Ansatsu Kyoushitsu</item>
+        <item>One Piece</item>
+        <item>Shingeki no Kyojin</item>
+    </string-array>
+    <string-array name="Quotes">
+        <item>May all your bacon burn.</item>
+        <item>Freedom is something that you need to actively acquire. It\'s not something that\'s given with no strings attached.</item>
+        <item>In order for a mediocre man to defeat a genius, he has to become a monster.</item>
+        <item>The difference between the novice and the master is that the master has failed more times than the novice has tried.</item>
+        <item>I don\'t want to conquer anything. I just think that the guy with the most freedom in this ocean is the Pirate King!</item>
+        <item>There is no such thing as truth in this world. That is our reality. Anyone can become a God or a Devil. All it takes is for someone to claim that to be the truth.</item>
+    </string-array>
+</resources>

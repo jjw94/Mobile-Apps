@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jeremiahwong.practicepractical.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are You a Member?"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="Do You Need a Cart?"
+        android:id="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:text="How Many Holes?" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="90dp"
+        android:text="Afternoons OK?"
+        android:id="@+id/textView3" />
+
+    <CheckBox android:id="@+id/checkbox_member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(check for yes)"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox android:id="@+id/checkbox_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(check for yes)"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/checkbox_member"
+        android:layout_alignStart="@+id/checkbox_member" />
+
+    <CheckBox android:id="@+id/checkbox_afternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(check for yes)"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/checkbox_cart"
+        android:layout_alignStart="@+id/checkbox_cart" />
+
+    <RadioButton android:id="@+id/radio_18holes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18 Holes"
+        android:layout_below="@+id/checkbox_cart"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <RadioButton android:id="@+id/radio_9holes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9 Holes"
+        android:layout_below="@+id/checkbox_cart"
+        android:layout_toLeftOf="@+id/radio_18holes"
+        android:layout_toStartOf="@+id/radio_18holes"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="TEE TIME INFO"
+        android:onClick="submitText"
+        android:layout_below="@+id/checkbox_afternoon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/buttonInfo" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="1000dp"
+        android:layout_height="500dp"
+        android:layout_below="@+id/buttonInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:id="@+id/textSum" />
+</RelativeLayout>
